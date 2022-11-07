@@ -21,7 +21,7 @@ if(seleccion == "si"){
     alert("A continuación le mostramos nuestra lista de accesorios")
     let todosLosAccesorios = accesorios.map((accesorio) => accesorio.nombre + " $" + accesorio.precio);
 
-    alert(todosLosAccesorios.join(" | "))
+    alert(todosLosAccesorios.join("\n"))
 } else if (seleccion == "no"){
     alert("Gracias " + nombre + "! Esperamos vuelvas pronto, muchas gracias.")
 }
